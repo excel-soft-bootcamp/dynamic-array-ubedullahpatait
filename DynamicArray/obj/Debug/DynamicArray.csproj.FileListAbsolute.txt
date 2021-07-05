@@ -1,0 +1,2 @@
+D:\DynamicArray\DynamicArray\obj\Debug\DynamicArray.csproj.AssemblyReference.cache
+D:\DynamicArray\DynamicArray\obj\Debug\DynamicArray.csproj.CoreCompileInputs.cache
