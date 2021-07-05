@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,22 +22,23 @@ namespace DynamicArray
 
 
 
-            public void Set(int index, int value)
+        public int this[int index]
+        {
+            set
             {
-            
-            if (index>= value)
+                if(index >= buffer.Length)
+                {
+                    Array.Resize(ref buffer, index + 5);
 
-            {
-                Array.Resize(ref buffer, index + 5);
-            }
+                }
                 buffer[index] = value;
             }
-
-
-            public int Get(int index)
+            get
             {
                 return buffer[index];
             }
+        }
 
+           
         }
     }
