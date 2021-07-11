@@ -11,8 +11,7 @@ namespace DynamicArray
         static void Main(string[] args)
         {
 
-            static void Main()
-            {
+         
                 DynamicNumberArray _dynamic = new DynamicNumberArray();
                 _dynamic[0] = 10;
                 _dynamic[1] = 20;
@@ -23,9 +22,10 @@ namespace DynamicArray
 
                 int value = _dynamic[5];
                 Console.WriteLine(value);
+                Console.ReadKey();
 
 
             }
         }
     }
-}
+
